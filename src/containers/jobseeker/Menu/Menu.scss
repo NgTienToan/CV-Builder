@@ -1,0 +1,104 @@
+
+$main_color : #1a8a58;
+.Menu {
+    background-color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    >nav {
+        margin-bottom: 20px;
+        height: 100%;
+        border-bottom: 0.5px solid #e7e7e7;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        font-weight: 700;
+        line-height: 20px;
+        padding: 10px 15px;
+        display: block;
+    }
+
+    li {
+        box-sizing: border-box;
+        padding-top : 15px;
+    }
+    
+    .NavbarCustom {
+        :global(.container){
+            max-width: 1100px;
+            min-width: 750px;
+            margin-right: auto;
+            margin-left: auto;
+             display: flex;
+            justify-content: space-between;
+            :global(.navbar-brand){
+               
+                margin-left: -15px;
+            
+            }
+            :global(.nav-item ) {
+                &:hover {
+                    color: $main_color;
+                    
+                }
+                :global(.active ) {
+                    color: $main_color;
+                    border-bottom:  1px solid $main_color;
+                    box-sizing: border-box;
+                    
+                }
+                
+            }
+
+            :global(.nav-notification) {
+                position: relative;
+                padding: 0;
+                
+                >a {
+                    box-sizing: border-box;
+                    display: inline-block;
+                    padding: 23px 14px;
+                    color: #333;
+                    &:hover {
+                        color: #0ba25e;
+                    }
+                    >i {
+                        font-size: 20px;
+                    }
+                }
+            }
+            :global(.nav-btn ) {
+                height: 100%;
+                color: #fff;
+                background-color: #324554;
+                outline: 1px solid #324554;
+                transition: background-color .3s;
+                position: relative;
+                padding: 0;
+                &:hover {
+                    background-color: #1e2429;
+                }
+                >a {
+                    box-sizing: border-box;
+                    display: inline-block;
+                    height: 100%;
+                    padding: 15px;
+                    
+                }
+            }
+            :global(.text-white) {
+                color: #fff;
+            }
+            :global(.text-white.normal) {
+                font-weight: normal;
+            }
+            
+        }
+    }
+    
+}
