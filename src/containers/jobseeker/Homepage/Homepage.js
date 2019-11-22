@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './Homepage.scss';
 
 
+
+// import Test from './../Test/Test';
+import TopBar from './../CvMaker/TopBar'
 import HomePage1 from './../HomePage1/HomePage1'
 
 class Homepage extends React.Component {
@@ -10,9 +13,7 @@ class Homepage extends React.Component {
         return(
             <React.Fragment>
                 <HomePage1 />
-                <div className={styles.header}>
 
-                </div>
 
                 </React.Fragment>
         )
