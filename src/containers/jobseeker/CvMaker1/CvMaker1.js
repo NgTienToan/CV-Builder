@@ -99,7 +99,20 @@ class CVMaker1 extends React.Component {
                   </p>
                 </div>
               </div>
-              
+              <div className={styles.addblock}>
+                <button >Add block</button>
+                <ul className={styles.addBlockItem} onClick={this.onClick} >
+                  <li>
+                    <i class="fas fa-skiing"></i>
+                    <span className={styles.title}>Skill</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-file-alt"></i>
+                    <span className={styles.title}>Text</span>
+                  </li>
+
+                </ul>
+              </div>
             </div>
             <div className={styles.row_right}>
               <div className={`box ${styles.CVMaker__left__like}`}>
@@ -142,7 +155,34 @@ class CVMaker1 extends React.Component {
 
                 <Education />
               </div>
-              
+              <div className={styles.addblock}>
+                <button >Add block</button>
+                <ul className={styles.addBlockItem} onClick={this.onClick} >
+                  <li>
+                    <i class="fas fa-skiing"></i>
+                    <span className={styles.title}>Skill</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-file-alt"></i>
+                    <span className={styles.title}>Text</span>
+                  </li>
+
+                </ul>
+              </div>
+              <div className={styles.addblock}>
+                <button >Add block</button>
+                <ul className={styles.addBlockItem} onClick={this.onClick} >
+                  <li>
+                    <i class="fas fa-skiing"></i>
+                    <span className={styles.title}>Skill</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-file-alt"></i>
+                    <span className={styles.title}>Text</span>
+                  </li>
+
+                </ul>
+              </div>
               
             </div>
 
