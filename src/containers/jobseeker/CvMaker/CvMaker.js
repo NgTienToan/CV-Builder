@@ -1,7 +1,6 @@
 import React from 'react';
 import Education from '../Test/Education';
-import Experience from './../Test/Experience';
-// import Test from './../Test/Test';
+import Experience from './../Test/Experience'
 
 import styles from './CvMaker.scss';
 class CVMaker extends React.Component {
