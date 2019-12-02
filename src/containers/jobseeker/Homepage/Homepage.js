@@ -8,7 +8,8 @@ import CvMaker from './../CvMaker/CvMaker';
 import CvMaker1 from './../CvMaker1/CvMaker1';
 import TopBar from './../CvMaker/TopBar';
 import NavBar from './../CvMaker/NavBar';
-import HomePage1 from './../HomePage1/HomePage1'
+import HomePage1 from './../HomePage1/HomePage1';
+import Footer from './../../Footer/Footer'
 
 class Homepage extends React.Component {
 
@@ -21,6 +22,7 @@ class Homepage extends React.Component {
                     <NavBar /> 
                 </div>
                 <CvMaker1 />
+                <Footer />
 
 
                 </React.Fragment>
